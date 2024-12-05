@@ -1,0 +1,57 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "NotFoundPage": {
+    "title": "Oops! It appears that this page cannot be found",
+    "message": "Get back to the home page",
+    "imageAlt": "404 not found image",
+    "button": "Home"
+  },
+  "header": {
+    "language-switcher": {
+      "lang": "Language",
+      "submit": "Submit"
+    },
+    "home": "home",
+    "deepfake": "deepfake",
+    "sniffing": "sniffing",
+    "phishing": "phishing",
+    "ai-detector": "ai detector",
+    "quiz": "quiz"
+  },
+  "slider": {
+    "description": {
+      "sniffing": "Learn about packet sniffing",
+      "phishing": "Learn how to protect yourself from phishing!",
+      "ai-detector": "Detect AI using this tool",
+      "deepfake": "Beware of fake faces",
+      "quiz": "Try your knowledge"
+
+    },
+    "title": {
+      "sniffing": "sniffing",
+      "phishing": "phishing",
+      "ai-detector": "ai detector",
+      "deepfake": "deepfake",
+      "quiz": "quiz"
+
+    },
+    "info": {
+      "discover": "Explore"
+    }
+  },
+  "contact-form": {
+    "contact-us": "Contact Us",
+    "subtitle": "Have any questions? Send us a message and we’ll get back to you!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+
+  },
+  "hamburger": {
+    "contact-us":"Contact Us"
+  }
+}

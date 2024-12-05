@@ -1,0 +1,54 @@
+{
+  "HomePage": {
+    "title": "Salut monde!",
+    "about": "Va a la page about"
+  },
+  "NotFoundPage": {
+    "title": "Oups ! Il semble que cette page ne puisse pas être trouvée",
+    "message": "Retourner à la page d'accueil",
+    "imageAlt": "Image d'erreur 404 non trouvée",
+    "button": "Accueil"
+  },
+  "header": {
+    "language-switcher": {
+      "lang": "Langue",
+      "submit": "Soumettre"
+    },
+    "home": "accueil",
+    "deepfake": "deepfake",
+    "sniffing": "écoute",
+    "phishing": "hameçonnage",
+    "ai-detector": "détecteur d'IA",
+    "quiz": "quiz"
+  },
+  "slider": {
+    "description": {
+      "sniffing": "Apprenez-en plus sur le sniffing de paquets",
+      "phishing": "Apprenez à vous protéger contre le phishing !",
+      "ai-detector": "Détectez l'IA grâce à cet outil",
+      "deepfake": "Attention aux visages truqués",
+      "quiz": "Testez vos compétences"
+    },
+    "title": {
+      "sniffing": "écoute",
+      "phishing": "hameçonnage",
+      "ai-detector": "détecteur IA",
+      "deepfake": "deepfake",
+      "quiz": "quiz"
+    },
+    "info": {
+      "discover": "Explorez"
+    }
+  },
+  "contact-form": {
+    "contact-us": "Contactez-nous",
+    "subtitle": "Vous avez des questions ? Envoyez-nous un message et nous vous répondrons !",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le message"
+  },
+  "hamburger": {
+    "contact-us":"Contactez-nous"
+  }
+}

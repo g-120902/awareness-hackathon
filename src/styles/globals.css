@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FFFFF0;
+  --foreground: #171717;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'garet';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/garet/Garet-Book.woff') format('woff');
+}
