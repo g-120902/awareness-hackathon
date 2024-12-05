@@ -37,7 +37,7 @@ export default function Chatbot(): JSX.Element {
   }, []);
 
   return (
-    <div className="flex w-full justify-end sticky z-40 bottom-0 items-end my-6">
+    <div className="flex w-full h-screen sticky z-40 bottom-0 my-6 flex-col justify-end items-end py-14">
       <div className="flex flex-col py-2 justify-center items-center">
         <button
           ref={buttonRef}
@@ -66,7 +66,7 @@ export default function Chatbot(): JSX.Element {
       {isIframeVisible && (
         <iframe
           ref={iframeRef}
-          className="absolute z-50 bottom-0 w-1/4 h-2/3"
+          className="absolute z-50 w-1/4 h-2/3"
           src="https://www.chatbase.co/chatbot-iframe/O079ElDh4drRcnEMf3y6T"
           width="100%"
           title="Chatbot"

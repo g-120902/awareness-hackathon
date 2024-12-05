@@ -18,10 +18,10 @@ export default function HamburgerMenu() {
       <MenuButton isMenuOpen={isMenuOpen} onToggle={toggleMenu} />
       <Slider isMenuOpen={isMenuOpen}>
         <div className="flex flex-col px-4 underline gap-4 uppercase">
-          <Link href='/contact-us'>{t('sniffing')}</Link>
-          <Link href='/contact-us'>{t('phishing')}</Link>
-          <Link href='/contact-us'>{t('ai-detector')}</Link>
-          <Link href='/contact-us'>{t('quiz')}</Link>
+          <Link href='/blogs/sniffing'>{t('sniffing')}</Link>
+          <Link href='/blogs/phishing'>{t('phishing')}</Link>
+          <Link href='/ai-detector'>{t('ai-detector')}</Link>
+          <Link href='/quiz'>{t('quiz')}</Link>
 
           <span className="bg-blue-hover w-16 h-[1px] self-center my-4"/>
         </div>
