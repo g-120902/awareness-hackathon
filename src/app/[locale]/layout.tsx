@@ -26,7 +26,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className="font-primary min-h-screen flex flex-col overflow-hidden">
+      <body className="font-primary min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <Header />
           <HamburgerMenu />

@@ -17,14 +17,14 @@ function MenuButton({ isMenuOpen, onToggle }: MenuButtonProps) {
       <div className="relative w-8 h-8">
         {/* Hamburger Icon */}
         <Bars4Icon
-          className={`w-8 h-8 text-ivory absolute top-0 left-0 transform transition-transform duration-300 ${
+          className={`w-8 h-8 text-blue-hover absolute top-0 left-0 transform transition-transform duration-300 ${
             isMenuOpen ? "scale-0" : "scale-100"
           }`}
         />
 
         {/* Close Icon */}
         <XMarkIcon
-          className={`w-8 h-8 text-ivory absolute top-0 left-0 transform transition-transform duration-300 mt-1 ${
+          className={`w-8 h-8 text-blue-hover absolute top-0 left-0 transform transition-transform duration-300 mt-1 ${
             isMenuOpen ? "scale-100" : "scale-0"
           }`}
         />

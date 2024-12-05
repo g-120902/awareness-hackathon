@@ -1,7 +1,9 @@
+import Blog from "@/components/Sniffing";
+
 export default function SniffingPage() {
     return (
       <div>
-          sniffing
+          <Blog />
       </div>
     );
   }

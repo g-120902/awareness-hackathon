@@ -37,7 +37,7 @@ export default function Chatbot(): JSX.Element {
   }, []);
 
   return (
-    <div className="select-none flex w-3/12 h-1/2 sticky z-30 bottom-0 my-6 flex-col justify-end items-start py-14">
+    <div className="select-none flex w-full md:w-3/12 h-1/2 sticky z-30 bottom-0 my-6 flex-col justify-end items-start py-14">
       <div className="flex flex-col py-2 justify-center items-center">
         <button
           ref={buttonRef}
