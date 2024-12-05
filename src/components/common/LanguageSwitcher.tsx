@@ -48,10 +48,10 @@ export default function LanguageSwitcher(): JSX.Element {
     };
 
     return (
-        <section className="absolute select-none z-50 flex flex-col items-end top-12">
+        <section className="absolute select-none z-40 flex flex-col items-end top-12">
             <span
                 onClick={toggleDropdown}
-                className={`p-1 px-2 font-bold text-base cursor-pointer ${dropdownOpen ? "bg-gray-200 text-dark-gray" : "bg-transparent text-ivory"
+                className={`p-1 px-2 font-bold text-base cursor-pointer ${dropdownOpen ? "bg-gray-200 text-dark-gray" : "bg-white text-blue-hover"
                     }`}
             >
                 {!dropdownOpen

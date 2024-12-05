@@ -26,7 +26,7 @@ export default function OtherInfo({ data }: Props): JSX.Element {
                         display: "inline-block"
                     }}
                 >
-                    <motion.h1 className="spacing overflow-hidden text-ivory font-extrabold text-3xl md:text-6xl"
+                    <motion.h1 className="spacing overflow-hidden text-ivory font-extrabold text-3xl md:text-5xl"
                         variants={item} key={data?.title}>
                         {data?.title}
                     </motion.h1>

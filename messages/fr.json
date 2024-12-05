@@ -16,7 +16,7 @@
     },
     "home": "accueil",
     "deepfake": "deepfake",
-    "sniffing": "écoute",
+    "sniffing": "sniffing",
     "phishing": "hameçonnage",
     "ai-detector": "détecteur d'IA",
     "quiz": "quiz"
@@ -30,7 +30,7 @@
       "quiz": "Testez vos compétences"
     },
     "title": {
-      "sniffing": "écoute",
+      "sniffing": "sniffing",
       "phishing": "hameçonnage",
       "ai-detector": "détecteur IA",
       "deepfake": "deepfake",

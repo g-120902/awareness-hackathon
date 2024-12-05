@@ -11,7 +11,7 @@ interface SliderProps {
 function Slider({ isMenuOpen, children }: SliderProps) {
   return (
     <div
-      className={`z-50 fixed left-0 top-16 h-full w-64 bg-gold-primary shadow-lg transform transition-transform duration-300 text-ivory py-12 ${
+      className={`z-50 fixed left-0 top-10 h-full w-44 bg-pale-blue shadow-lg transform transition-transform duration-300 text-blue-hover py-12 ${
         isMenuOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >
