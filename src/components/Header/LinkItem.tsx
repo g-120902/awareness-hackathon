@@ -14,7 +14,7 @@ const LinkItem: React.FC<LinkItemProps> = ({ text, href }) => {
   return (
     <Link
       href={href}
-      className={`h-full text-base w-40 py-2 flex justify-center items-center px-12 whitespace-nowrap border-pale-blue border-x-[1px] ${
+      className={`hover:bg-blue-hover hover:text-white h-full text-base w-40 py-2 flex justify-center items-center px-12 whitespace-nowrap border-pale-blue border-x-[1px] ${
         isActive ? 'bg-pale-blue' :'bg-ivory'
       }`}
     >

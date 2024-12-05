@@ -10,11 +10,12 @@ function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
 
   return (
     <div className="result_container">
-      <p className="result">
-        <span>{emoji}</span> You scored <strong>{points}</strong> out of{" "}
-        {maxPossiblePoints} ({Math.ceil(percentage)}%)
+      <p className="ending1">
+        You successfully completed the quiz!
       </p>
-      <p className="highscore">(Highscore: {highscore} points)</p>
+      <p className="ending2">
+        Hoped it helped you understand the threats of sniffing and phishing more!
+      </p>
       <button
         className="btn btn-ui"
         onClick={() => dispatch({ type: "restart" })}

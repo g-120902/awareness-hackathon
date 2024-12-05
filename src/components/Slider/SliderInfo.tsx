@@ -38,7 +38,7 @@ export default function SliderInfo({ transitionData, currentSlideData }: SliderI
       <OtherInfo data={transitionData ? transitionData : currentSlideData.data} />
       <Link href={getHref(currentTitle)}>
         <button
-          className="flex w-[200px] h-[41px] items-center justify-center rounded-md bg-pale-blue text-lg font-semibold text-blue-hover shadow-lg"
+          className="hover:bg-blue-hover hover:text-white flex w-[200px] h-[41px] items-center justify-center rounded-md bg-pale-blue text-lg font-semibold text-blue-hover shadow-lg"
         >
           {t("discover")}
         </button>

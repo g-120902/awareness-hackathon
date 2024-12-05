@@ -16,7 +16,7 @@ import { Locale } from "@/types/locale";
 import { useLocale } from "next-intl";
 
 
-const SECS_PER_QUESTION = 5;
+const SECS_PER_QUESTION = 30;
 
 // Define types for the question and the state
 interface QuestionType {
@@ -205,7 +205,7 @@ const Quiz: React.FC = () => {
                   index={index}
                   numQuestions={numQuestions}
                   points={points}
-                  maxPossiblePoints={maxPossiblePoints}
+                  maxPossiblePoints={questions.length}
                   answer={answer}
                 />
                 <Question

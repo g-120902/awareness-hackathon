@@ -50,5 +50,13 @@
   },
   "hamburger": {
     "contact-us":"Contactez-nous"
-  }
+  },
+  "sniffing": {
+  "title": "Espionnage",
+  "description": "L'espionnage est un acte frauduleux consistant à usurper l'identité d'entités de confiance par le biais de courriels, de messages texte ou de messages sur les réseaux sociaux pour tromper les victimes et les amener à divulguer des informations sensibles, souvent déguisées en communication provenant de sources réputées."
+},
+"phishing": {
+  "title": "Hameçonnage",
+  "description": "L'hameçonnage est un acte frauduleux consistant à usurper l'identité d'entités de confiance par le biais de courriels, de messages texte ou de messages sur les réseaux sociaux pour tromper les victimes et les amener à divulguer des informations sensibles, souvent déguisées en communication provenant de sources réputées."
+}
 }

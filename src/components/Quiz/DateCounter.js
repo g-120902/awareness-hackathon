@@ -4,7 +4,7 @@ const initialState = { count: 0, step: 1 };
 
 function reducer(state, action) {
   console.log(state, action);
-
+ 
   switch (action.type) {
     case "dec":
       return { ...state, count: state.count - state.step };
@@ -14,6 +14,21 @@ function reducer(state, action) {
       return { ...state, count: action.payload };
     case "setStep":
       return { ...state, step: action.payload };
+    case "newAnswer": {
+      const isCorrect = action.payload === state.questions[state.index].correctOption;
+      return {
+        ...state,
+        points: state.points + (isCorrect ? 1 : 0),
+        correctAnswers: state.correctAnswers + (isCorrect ? 1 : 0),
+        index: state.index + 1,
+      };
+    }
+    case "setQuestions":
+      return { 
+        ...state, 
+        questions: action.payload, 
+        maxPossiblePoints: action.payload.length 
+      };
     case "reset":
       return initialState;
     default:

@@ -53,5 +53,13 @@
   },
   "hamburger": {
     "contact-us":"Contact Us"
+  },
+  "sniffing": {
+    "title": "Sniffing",
+    "description": "Phishing is a fraudulent act of impersonating trusted entities through emails, texts, or social media messages to deceive victims intorevealing sensitive information, often disguised as communication from reputable sources."
+  },
+  "phishing": {
+    "title": "Phishing",
+    "description": " Phishing is a fraudulent act of impersonating trusted entities through emails, texts, or social media messages to deceive victims into revealing sensitive information, often disguised as communication from reputable sources."
   }
 }

@@ -18,6 +18,7 @@ export default function HamburgerMenu() {
       <MenuButton isMenuOpen={isMenuOpen} onToggle={toggleMenu} />
       <Slider isMenuOpen={isMenuOpen}>
         <div className="flex flex-col px-4 underline gap-4 uppercase">
+        <Link href='/'>{t('home')}</Link>
           <Link href='/blogs/sniffing'>{t('sniffing')}</Link>
           <Link href='/blogs/phishing'>{t('phishing')}</Link>
           <Link href='/ai-detector'>{t('ai-detector')}</Link>
