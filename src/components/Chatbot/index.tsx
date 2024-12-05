@@ -37,7 +37,7 @@ export default function Chatbot(): JSX.Element {
   }, []);
 
   return (
-    <div className="select-none flex w-3/12 h-screen sticky z-30 bottom-0 my-6 flex-col justify-end items-start py-14">
+    <div className="select-none flex w-3/12 h-1/2 sticky z-30 bottom-0 my-6 flex-col justify-end items-start py-14">
       <div className="flex flex-col py-2 justify-center items-center">
         <button
           ref={buttonRef}
@@ -50,6 +50,7 @@ export default function Chatbot(): JSX.Element {
         >
           {/* Replace the text with an image (e.g., an icon for the button) */}
           <Image
+            priority
             src="/images/chatbot/icon.png"
             alt="Chatbot Toggle"
             width={100}
@@ -57,8 +58,7 @@ export default function Chatbot(): JSX.Element {
           />
         </button>
         <span className="bg-white px-2">
-        <p className="text-blue-hover">Chatbot</p>
-
+          <p className="text-blue-hover">Chatbot</p>
         </span>
       </div>
 
@@ -66,7 +66,7 @@ export default function Chatbot(): JSX.Element {
       {isIframeVisible && (
         <iframe
           ref={iframeRef}
-          className="absolute z-50 w-full h-2/3"
+          className="absolute z-50 w-full h-96"
           src="https://www.chatbase.co/chatbot-iframe/O079ElDh4drRcnEMf3y6T"
           width="100%"
           title="Chatbot"
