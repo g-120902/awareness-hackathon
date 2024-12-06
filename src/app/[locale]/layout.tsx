@@ -36,6 +36,7 @@ export default async function LocaleLayout({
           </div>
           <div className="flex-grow">{children}</div>
           <Chatbot />
+
         </NextIntlClientProvider>
       </body>
     </html>

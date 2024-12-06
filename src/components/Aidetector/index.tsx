@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 /**
@@ -15,6 +16,7 @@ export default function AITextDetectionPage(): JSX.Element {
   const [result, setResult] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [percentage, setPercentage] = useState<number | null>(null); // AI confidence percentage
+  const t = useTranslations('ai-detector');
 
   // Handle text input change
   const handleTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -72,19 +74,14 @@ export default function AITextDetectionPage(): JSX.Element {
     <div className="min-h-screen flex flex-col justify-center items-center px-4 py-12">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
         <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center">
-          AI Text Detection
+          {t('title')}
         </h1>
         <p className="text-gray-600 text-center mb-6">
-          Submit text to check for AI generation.
+        {t('description')}
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="form-group">
-            <label
-              htmlFor="text"
-              className="block text-sm font-medium text-gray-700"
-            >
-              Enter Text
-            </label>
+    
             <textarea
               id="text"
               value={text}

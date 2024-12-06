@@ -60,6 +60,14 @@
   },
   "phishing": {
     "title": "Phishing",
-    "description": " Phishing is a fraudulent act of impersonating trusted entities through emails, texts, or social media messages to deceive victims into revealing sensitive information, often disguised as communication from reputable sources."
+    "description": " Phishing is a fraudulent act of impersonating trusted entities through emails, texts, or social media messages to deceive victims into revealing sensitive information, often disguised as communication from reputable sources.",
+    "link-tester": {
+      "description": "Submit a URL to detect phishing risks.",
+      "label": "Enter URL"
+    }
+  },
+  "ai-detector": {
+    "title": "AI Text Detection",
+    "description": "Submit text to check for AI generation."
   }
 }
