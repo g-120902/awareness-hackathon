@@ -22,7 +22,7 @@ export default function PhishingDetectionPage(): JSX.Element {
     setError(null);
  
     try {
-      const response = await fetch('/api/ai-detector', {
+      const response = await fetch('/api/phishing', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
